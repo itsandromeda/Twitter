@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/*
+    ================
+    HEADER
+    ================
+*/
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #333;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    height: 45px;
+}
+
+.nav {
+    background-color: #fff;
+    position: relative;
+    height: 46px;
+}
+
+.logo {
+    background-image: url(../images/Twitter_Logo_Blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+    position: absolute;
+    top: 10.5px;
+    left: 48.3%;
+    width: 30px;
+    height: 25px;
+}
+
+.nav-action {
+    height: 45.5px;
+}
+
+.nav-action:first-child {
+    width: 330px;
+    margin-left: 80px;
+}
+
+.nav-social {
+    font-size: 13px;
+    color: #66757f;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    height: 45.5px;
+    margin-right: -4.5px;
+    padding: 11px 0 0 15px;
+}
+
+.circle {
+    background-color: #300000;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    width: 6px;
+    height: 6px;
+}
+
+.nav-social i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.nav-social:first-child {
+    width: 88px;
+    border-bottom: 4px solid #300000;
+}
+
+.nav-social:nth-child(2) {
+    width: 125px;
+}
+
+.nav-social:last-child {
+    width: 115px;
+}
+
+.nav-social:hover {
+    color: #300000;
+    border-bottom: 4px solid #300000;
+}
+
+.nav-action:last-child {
+    width: 375px;
+    margin-right: 109px;
+}
+
+.search-input {
+    display: inline-block;
+    position: relative;
+    top: -7px;
+}
+
+.search-input input {
+    background-color: #f5f8fa;
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #e6ecf0;
+    border-radius: 40px;
+    width: 221px;
+    margin-right: 10px;
+    padding: 8px 28px 8px 12px;
+    outline: none;
+}
+
+.search-input i {
+    font-size: 14px;
+    color: #66757f;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.nav-action:last-child img {
+    border: 1px solid #e6ecf0;
+    border-radius: 50%;
+    position: relative;
+    top: 6px;
+    height: 34px;
+    margin-right: 7px;
+}
+
+#tweet {
+    background-color: #593333;
+    font-size: 13px;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 94px;
+    height: 36px;
+    position: relative;
+    top: -8px;
+    transition: 0.3s;
+    outline-color: #977f7f;
+    cursor: pointer;
+}
+
+#tweet:hover {
+    background-color: #191919;
+}
+
+#tweet i {
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+#tweet span {
+    position: relative;
+    top: 2px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
