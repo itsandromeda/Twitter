@@ -367,7 +367,9 @@ img[alt="background"] {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border: 1px solid #e6ecf0;
+    position: relative;
     width: 100%;
+    margin-bottom: 8px;
 }
 
 .tweet {
@@ -431,16 +433,26 @@ img[alt="Annia J. Flores"] {
 
 .tweets {
     background-color: #fff;
+    position: relative;
     cursor: pointer;
 }
 
 .tweets div:first-child {
-    height: 78.5px;
-    padding: 12px;
+    height: 60px;
+    padding: 12px 0 0 12px;
+}
+
+.tweet-container .fa-chevron-down {
+    font-size: 12px;
+    color: #afc7dc;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
 }
 
 .media-content {
-    height: 325px;
+    height: auto;
     padding: 0 0 15px 71px;
     cursor: pointer;
 }
@@ -487,6 +499,7 @@ img[alt="Annia J. Flores"] {
     font-size: 14px;
     color: #14171a;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 .tweets img[alt="MTV Award Emoji"] {
@@ -496,14 +509,14 @@ img[alt="Annia J. Flores"] {
     height: 17px;
 }
 
-img[alt="MTV awards"] {
+.user-media {
     border-radius: 4px;
-    height: 284px;
+    width: 504px;
+    margin-top: 19px;
 }
 
 .react-social {
     font-size: 12px;
-    vertical-align: middle;
     color: #aab8cd;
     display: inline-block;
     margin-top: 10px;
@@ -534,6 +547,42 @@ img[alt="MTV awards"] {
 .react-social span {
     position: relative;
     top: -2px;
+}
+
+.missed-tweets-container {
+    border: 1px solid #e6ecf0;
+    border-radius: 5px;
+    position: relative;
+}
+
+.missed-tweets-container div:first-child {
+    background-color: #fff;
+    font-size: 18px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 12px;
+}
+
+.missed-tweets-container .fa-chevron-down {
+    font-size: 12px;
+    color: #afc7dc;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.tweet-container .fa-chevron-down:hover,
+.missed-tweets-container .fa-chevron-down:hover {
+    color: #14171a;
+}
+
+.missed-tweets-container .tweets {
+    border-top: 1px solid #e6ecf0;
+}
+
+.missed-tweets-container .user-media {
+    margin: 0;
 }
 
 .left {
