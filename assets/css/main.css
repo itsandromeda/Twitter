@@ -16,18 +16,18 @@ body {
 */
 
 header {
-    background-color: #fff;
-    border-bottom: 1px solid #333;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
-    position: fixed;
     width: 100%;
-    height: 45px;
+    height: 47px;
 }
 
 .nav {
     background-color: #fff;
-    position: relative;
-    height: 46px;
+    border-bottom: 1px solid #d0d3d5;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    height: 47px;
+    z-index: 5;
 }
 
 .logo {
@@ -37,7 +37,7 @@ header {
     background-size: 110%;
     position: absolute;
     top: 10.5px;
-    left: 48.3%;
+    left: 48.9%;
     width: 30px;
     height: 25px;
 }
@@ -97,7 +97,7 @@ header {
 
 .nav-action:last-child {
     width: 375px;
-    margin-right: 109px;
+    margin-right: 92px;
 }
 
 .search-input {
@@ -173,18 +173,26 @@ header {
 */
 
 .wrapper {
-    width: 1207px;
+    position: relative;
+    top: 46px;
+    width: 1190px;
     padding: 10px 0;
     margin: auto;
 }
 
 .dashboard:first-child {
     width: 290px;
-    height: 500px;
+    height: auto;
 }
 
+
+/*
+    =================
+    USER INFO SECTION
+    =================
+*/
+
 .user-info {
-    background: #fff;
     position: relative;
     width: 100%;
     height: 195px;
@@ -220,6 +228,7 @@ header {
 }
 
 .user-insights {
+    background: #fff;
     border-right: 1px solid #e6ecf0;
     border-left: 1px solid #e6ecf0;
     border-bottom: 1px solid #e6ecf0;
@@ -274,6 +283,52 @@ header {
 
 .insights span:last-child {
     font-size: 18px;
+}
+
+
+/*
+    ========================
+    WORLDWIDE TRENDS SECTION
+    ========================
+*/
+
+.worldwide-trends {
+    clear: both;
+    background: #fff;
+    border: 1px solid #e6ecf0;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.worldwide-trends h2 {
+    font: 18px normal, sans-serif;
+    color: #66758f;
+    display: inline-block;
+    margin: 2px 0 8px 0;
+}
+
+.worldwide-trends span {
+    font-size: 13px;
+    color: #300000;
+}
+
+.hashtag {
+    margin-bottom: 10px;
+}
+
+.hashtag:last-child {
+    margin: 0;
+}
+
+.hashtag span:first-child {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1px;
+}
+
+.hashtag span:nth-child(2) {
+    color: #657789;
 }
 
 .left {
