@@ -592,12 +592,18 @@ img[alt="Annia J. Flores"] {
 */
 
 .dashboard:last-child {
+    width: 290px;
+    height: auto;
+}
+
+.follow,
+footer {
     background: #fff;
     border: 1px solid #e6ecf0;
     border-radius: 5px;
-    display: inline-block;
-    width: 290px;
-    height: auto;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
     padding: 15px;
 }
 
@@ -642,7 +648,7 @@ img[alt="Annia J. Flores"] {
     top: 1px;
 }
 
-.follow-user .tweet-content span {
+.follow-user .tweet-content span:nth-child(4) {
     position: relative;
     top: -1px;
 }
@@ -666,7 +672,64 @@ img[alt="Annia J. Flores"] {
     margin-right: 8px;
 }
 
-.follow-user a:last-child {}
+.tweet-content .exit {
+    font-size: 22px;
+    color: #cdd7dd;
+    position: absolute;
+    right: 14px;
+    cursor: pointer;
+}
+
+.user-1 .exit {
+    top: 43px;
+}
+
+.user-2 .exit {
+    top: 102px;
+}
+
+.user-3 .exit {
+    top: 161px;
+}
+
+
+/*
+    ================
+    FOOTER
+    ================
+*/
+
+footer {
+    padding: 0;
+}
+
+footer span,
+footer a {
+    font-size: 12px;
+    color: #657786;
+    line-height: 14px;
+    text-decoration: none;
+    margin-right: 4px;
+}
+
+footer a:hover {
+    color: #360000;
+    text-decoration: underline;
+}
+
+footer div:first-child {
+    padding: 15px;
+}
+
+footer div:last-child {
+    background-color: #f5f8fa;
+    border-top: 1px solid #e6ecf0;
+    padding: 13px 15px 15px 15px;
+}
+
+footer div:last-child a {
+    color: #360000;
+}
 
 .left {
     float: left;
