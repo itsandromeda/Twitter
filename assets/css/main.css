@@ -184,6 +184,7 @@ header {
     position: relative;
     width: 290px;
     height: auto;
+    margin-right: 10px;
 }
 
 
@@ -302,19 +303,16 @@ img[alt="background"] {
     padding: 15px;
 }
 
-.worldwide-trends h2 {
+.worldwide-trends h2,
+.follow h2 {
     font: 18px normal, sans-serif;
     color: #66758f;
     display: inline-block;
     margin: 2px 0 8px 0;
 }
 
-.worldwide-trends span {
-    font-size: 13px;
-    color: #300000;
-}
-
-.worldwide-trends a {
+.worldwide-trends a,
+.follow a {
     font-size: 13px;
     color: #300000;
     text-decoration: none;
@@ -358,9 +356,10 @@ img[alt="background"] {
 */
 
 .main-content {
+    display: inline-block;
     width: 590px;
     height: auto;
-    margin: auto;
+    margin-right: 10px;
 }
 
 .tweet-container {
@@ -584,6 +583,90 @@ img[alt="Annia J. Flores"] {
 .missed-tweets-container .user-media {
     margin: 0;
 }
+
+
+/*
+    ================
+    RIGHT DASHBOARD
+    ================
+*/
+
+.dashboard:last-child {
+    background: #fff;
+    border: 1px solid #e6ecf0;
+    border-radius: 5px;
+    display: inline-block;
+    width: 290px;
+    height: auto;
+    padding: 15px;
+}
+
+.follow h2 {
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.follow a {
+    font-size: 12px;
+}
+
+.follow a:hover,
+.follow-user h3:hover {
+    text-decoration: underline;
+}
+
+.follow-user {
+    margin-bottom: 12px;
+}
+
+.follow-user:nth-child(3) {
+    margin-bottom: 10px;
+}
+
+.follow-user img:first-child {
+    border-radius: 5px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.follow-user .tweet-content h3 {
+    color: #14171a;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    margin: 0;
+}
+
+.follow-user .tweet-content img {
+    position: relative;
+    top: 1px;
+}
+
+.follow-user .tweet-content span {
+    position: relative;
+    top: -1px;
+}
+
+.follow-user button {
+    background-color: #fcfdfd;
+    font-weight: bold;
+    color: #14171a;
+    border: 1px solid #e6ecf0;
+    border-radius: 3px;
+    display: block;
+    position: relative;
+    top: 2px;
+    width: 89px;
+    height: 29px;
+    padding: 5px;
+}
+
+.follow-user .fa-user-plus {
+    color: #1da1f2;
+    margin-right: 8px;
+}
+
+.follow-user a:last-child {}
 
 .left {
     float: left;
