@@ -665,6 +665,11 @@ footer {
     width: 89px;
     height: 29px;
     padding: 5px;
+    cursor: pointer;
+}
+
+.follow-user button:hover {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
 }
 
 .follow-user .fa-user-plus {
